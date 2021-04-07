@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500;600;700&display=swap');
+.allInPost{
+  padding-top: 15px;
+  padding-left:20px ;
+  padding-right:20px ;
+  padding-bottom: 20px;
+  margin: 10px 10px;
+  border: 1px solid rgb(162, 162, 162);  
+}
+
+.post{
+    
+    max-width:520px;
+     background-image: linear-gradient(180deg, rgba(251, 251, 251, 0.5),rgba(255, 255, 255, 0.5)); 
+    
+    margin: 0px 5px;
+    /* border: 2px solid rgb(0, 0, 0);   */
+    font-family: 'Mali', cursive;
+    border-radius: 1%;
+    
+}
+
+
+
+.post__image{
+width: 100%;
+object-fit:contain;
+margin-top: 8px;
+
+
+font-family: 'Mali', cursive;
+
+}
+
+.date{
+  padding: 0px 0px;
+  color: #3d3c3b;
+  font-size: 60%;
+  margin-right: 1%;
+   text-align: right;
+}
+
+.post__text{
+ 
+font-weight: normal;
+padding: 2px;
+font-family: 'Mali', cursive;
+color: rgb(26, 22, 22);
+}
+.post__header{
+display:flex;
+align-items: center;
+font-family: 'Mali', cursive;
+}
+.post__avatar{
+margin-right: 10px;
+font-family: 'Mali', cursive;
+
+}
+.postcomment{
+  padding: 15px 20px;
+  font-family: 'Mali', cursive;
+  color: rgb(3, 3, 3);
+  font-size: 12px;
+
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 15em;
+  line-height: 1.8em;
+
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  color: rgb(53, 53, 53);
+  scrollbar-width: thin;
+
+  
+}
+.postcommentbox{
+  
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Mali', cursive;
+}
+.postinput{
+flex: 1;
+font-family: 'Mali', cursive;
+/* border-image: linear-gradient(#f7be44, #ff3300) 10; */
+border-image: linear-gradient(#0e0d0c, #4f4c4b) 10;
+
+}
+.postbutton{
+    padding: 8px 21px;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+  line-height: 1.25;
+  background: #e4503d;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+  font-family: 'Mali', cursive;
+}
+
+.apppost{
+    padding: 20px;
+    display: flex;
+     justify-content: center;
+   }
+.BoxComment {
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 5em;
+  line-height: 1.8em;
+  font-size: 15px;
+}
+
+   

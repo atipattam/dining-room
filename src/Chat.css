@@ -1,0 +1,164 @@
+
+
+.App11 {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
+}
+
+.App11 header {
+  background-color: #274055;
+  height: 10vh;
+  min-height: 50px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 20px 20px;
+  
+  box-sizing: border-box;
+}
+
+.App11 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(127, 179, 214);
+}
+
+.main11 {
+  padding: 10px;
+  height: 80vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.main11::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.main11::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+.main11::-webkit-scrollbar-thumb {
+  background: #070606;
+}
+
+.form11 {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(55, 58, 112);
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.form11 button {
+  width: 20%;
+  background-color: rgb(77, 77, 209);
+}
+
+
+.input11 {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  background: rgb(58, 58, 58);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}
+
+.button11 {
+  background-color: #3a2b64; /* Green */
+  border: none;
+  color: rgb(135, 106, 168);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.button11:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.sign-in11 {
+  color: #f5f5f5;
+  background: rgb(218, 172, 23);
+  max-width: 400px;
+  padding: 5% 8%; 
+  margin: 0 auto;
+  font-size: 150%;
+}
+
+.sign-back {
+  color: #f5f5f5;
+  background: rgb(141, 138, 130);
+  max-width: 100px;
+  padding: 5% 8%; 
+  margin: 0 auto;
+  font-size: 150%;
+}
+
+
+
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+.p11 {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background-image: linear-gradient(to right, rgb(90, 116, 189), rgb(76, 163, 167));
+  align-self: flex-end;
+}
+.received p {
+  background-image: linear-gradient(to right, rgb(107, 108, 192), rgb(183, 130, 214));
+  color: rgb(255, 255, 255);
+}
+
+/* img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+} */
